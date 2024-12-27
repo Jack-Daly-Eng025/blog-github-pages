@@ -8,14 +8,14 @@
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  background-color: #f7f7f7;
-  color: #333;
+  background-color: #e3f6f5;
+  color: #2d334a;
   padding: 20px;
 }
 
 h1, h2, h3 {
   font-weight: normal;
-  color: #222;
+  color: #272343;
 }
 
 /* Header */
@@ -26,7 +26,7 @@ header {
 
 header h1 {
   font-size: 2.5rem;
-  color: #333;
+  color: #2d334a;
 }
 
 header p {
@@ -48,7 +48,7 @@ ul {
 
 article {
   background: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #bae8e8;
   border-radius: 8px;
   margin-bottom: 20px;
   padding: 20px;
@@ -62,7 +62,7 @@ article:hover {
 
 article h3 {
   font-size: 1.5rem;
-  color: #333;
+  color: #bae8e8;
 }
 
 article .meta {
