@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: Home
 title: My Blog for 2025
 ---
 
