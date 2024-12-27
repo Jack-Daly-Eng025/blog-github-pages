@@ -2,5 +2,5 @@ theme: minima
 title: "My Blog Posts"
 author : "byte_sized"
 description : "A minimalistic blog to track my journey through 2025."
-baseurl: ""  # Leave empty if using GitHub Pages at the root
+baseurl: "/blog-github-pages"  # Leave empty if using GitHub Pages at the root
 url: "https://jack-daly-eng025.github.io"  # Replace with your GitHub Pages URL
