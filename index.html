@@ -1,0 +1,54 @@
+---
+layout: home
+title: My Blog for 2025
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+
+  <!-- Welcome Section -->
+  <header>
+    <h1>Welcome to My Blog</h1>
+    <p>This is a space for sharing my thoughts, ideas, and projects. Feel free to explore the posts and connect with me!</p>
+  </header>
+
+  <!-- Latest Posts Section -->
+  <section>
+    <h2>Latest Posts</h2>
+    
+    {% for post in site.posts %}
+      <article>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="meta">
+          <small>Posted on {{ post.date | date: "%B %d, %Y" }}</small>
+        </p>
+        <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
+        <a href="{{ post.url }}" class="read-more">Read More</a>
+      </article>
+      <hr>
+    {% endfor %}
+  </section>
+
+  <!-- About Me Section -->
+  <section>
+    <h2>About Me</h2>
+    <p>Hi, I'm Jack, a writer, coder, and creator. This blog is where I share my journey for 2025. You can find my work on <a href="https://github.com/Jack-Daly-Eng025/" target="_blank">GitHub</a>.</p>
+  </section>
+
+  <!-- Subscribe Section -->
+  <section>
+    <h2>Subscribe</h2>
+    <p>Stay updated with the latest posts by subscribing to the <a href="feed.xml">RSS feed</a>.</p>
+  </section>
+
+</body>
+</html>
+
+
