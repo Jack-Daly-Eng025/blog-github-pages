@@ -31,4 +31,4 @@ Feel free to subscribe to my RSS feed to stay updated on future posts!
 
 ---
 
-Thank you for reading! If you have any feedback or want to chat, feel free to reach out via [GitHub](https://github.com/yourusername).
+Thank you for reading! If you have any feedback or want to chat, feel free to reach out via [GitHub](https://github.com/Jack-Daly-Eng025/).
