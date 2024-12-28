@@ -1,71 +1,68 @@
-/* Base Styles */
+/* General Styles */
 body {
-    background-color: #F9FFF8; /* Light mint background */
-    color: #333333; /* Dark gray text */
-    font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
+  background-color: #F9FFF8; /* Light mint background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #3EB489; /* Mint green */
 }
 
 /* Links */
 a {
-    color: #3EB489; /* Mint green */
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: #3EB489;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 a:hover {
-    color: #2A8763; /* Darker mint green on hover */
+  color: #2A8763; /* Darker mint green */
 }
 
-/* Navbar */
-.navbar {
-    background-color: #3EB489; /* Minty green */
-    color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-.navbar a {
-    color: white;
-}
-.navbar a:hover {
-    color: #F9FFF8; /* Light mint */
+/* Welcome Section */
+.welcome-section {
+  text-align: center;
+  background-color: #3EB489; /* Mint green */
+  color: white;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Buttons */
-button, .btn {
-    background-color: #3EB489;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-button:hover, .btn:hover {
-    background-color: #2A8763; /* Darker mint */
+.welcome-section h1 {
+  margin: 0;
+  font-size: 2.5rem;
 }
 
-/* Card/Box Style */
-.card {
-    background: white;
-    border: 1px solid #3EB489; /* Minty border */
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+.welcome-section p {
+  margin: 10px 0 0;
+  font-size: 1.2rem;
 }
 
-/* Headings */
-h1, h2, h3 {
-    color: #3EB489;
+/* About Section */
+.about-section, .subscribe-section {
+  padding: 20px;
+  background: white;
+  border: 1px solid #3EB489;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
 }
 
+.about-section:hover, .subscribe-section:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
 
-/* Footer */
-footer {
-    background-color: #2A8763;
-    color: white;
-    padding: 20px;
-    text-align: center;
+.about-section h2, .subscribe-section h2 {
+  margin-top: 0;
+}
+
+/* Additional Styling */
+p {
+  line-height: 1.6;
 }
